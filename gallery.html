@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PixelVista Gallery</title>
+
+  <link rel="stylesheet" href="gallery-style.css">
+</head>
+
+<body>
+
+
+  <!-- HEADER -->
+
+  <div class="header">
+
+    <h1>Dreamy Frames✨</h1>
+
+    <!-- DARK MODE BUTTON -->
+
+    <button id="themeBtn">
+      🌙 Dark Mode
+    </button>
+
+  </div>
+
+  <!-- SLIDESHOW BUTTON -->
+
+  <div class="slideshow-container">
+
+    <button id="slideBtn">
+      ▶ Start Slideshow
+    </button>
+
+  </div>
+
+  <!-- FILTER BUTTONS -->
+<!-- FILTER BUTTONS -->
+
+<div class="buttons">
+
+  <button onclick="filterSelection('all')" class="active">
+    All
+  </button>
+
+  <button onclick="filterSelection('food')">
+    Food
+  </button>
+
+  <button onclick="filterSelection('people')">
+    People
+  </button>
+
+  <button onclick="filterSelection('animals')">
+    Animals
+  </button>
+
+  <button onclick="filterSelection('nature')">
+    Nature
+  </button>
+
+  <button onclick="filterSelection('dresses')">
+    Dresses
+  </button>
+ <button onclick="filterSelection('flowers')" >
+    Flowers
+  </button>
+ <button onclick="filterSelection('bed')" >
+    Bedroom
+  </button>
+
+
+
+</div>
+  
+<div class="gallery">
+
+<div class="image flowers">
+
+  <button class="like-btn">❤️</button>
+
+  <img src="https://images.unsplash.com/photo-1468327768560-75b778cbb551?w=700" alt="">
+
+</div>
+
+<div class="image flowers">
+
+  <button class="like-btn">🤍</button>
+
+  <img src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?w=700" alt="">
+
+</div>
+
+<div class="image flowers">
+
+  <button class="like-btn">❤️</button>
+
+  <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=700" alt="">
+
+</div>
+<div class="image bed">
+
+  <button class="like-btn">🤍</button>
+
+  <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=700" alt="">
+
+</div>
+
+<div class="image bed">
+
+  <button class="like-btn">❤️</button>
+
+  <img src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=700" alt="">
+
+</div>
+
+<div class="image bed">
+
+  <button class="like-btn">🤍</button>
+
+  <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=700" alt="">
+
+</div>
+<div class="image nature">
+
+  <button class="like-btn">❤️</button>
+
+  <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=700" alt="">
+
+</div>
+
+<div class="image nature">
+
+  <button class="like-btn">🤍</button>
+
+  <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?w=700" alt="">
+
+</div>
+
+<div class="image nature">
+
+  <button class="like-btn">❤️</button>
+
+  <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=700" alt="">
+
+</div>
+
+<div class="image animals">
+
+  <button class="like-btn">🤍</button>
+
+  <img src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?w=700" alt="">
+
+</div>
+
+<div class="image animals">
+
+  <button class="like-btn">❤️</button>
+
+  <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=700" alt="">
+
+</div>
+
+<div class="image animals">
+
+  <button class="like-btn">🤍</button>
+
+  <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=700" alt="">
+
+</div>
+<div class="image food">
+
+  <button class="like-btn">❤️</button>
+
+  <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=700" alt="">
+
+</div>
+
+<div class="image food">
+
+  <button class="like-btn">🤍</button>
+
+  <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=700" alt="">
+
+</div>
+
+<div class="image food">
+
+  <button class="like-btn">❤️</button>
+
+  <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=700" alt="">
+
+</div>
+
+  <!-- IMAGE 1 -->
+
+  <div class="image dresses">
+
+    <button class="like-btn">🤍</button>
+
+    <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=700" alt="">
+
+  </div>
+
+  <!-- IMAGE 2 -->
+
+  <div class="image people">
+
+    <button class="like-btn">❤️</button>
+
+    <img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=700" alt="">
+
+  </div>
+
+  <!-- IMAGE 3 -->
+
+  <div class="image flowers">
+
+    <button class="like-btn">🤍</button>
+
+    <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=700" alt="">
+
+  </div>
+
+  <!-- IMAGE 4 -->
+
+  <div class="image nature">
+
+    <button class="like-btn">❤️</button>
+
+    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=700" alt="">
+
+  </div>
+
+  <!-- IMAGE 5 -->
+
+  <div class="image animals">
+
+    <button class="like-btn">🤍</button>
+
+    <img src="https://images.unsplash.com/photo-1511044568932-338cba0ad803?w=700" alt="">
+
+  </div>
+
+  <!-- IMAGE 6 -->
+
+  <div class="image bed">
+
+    <button class="like-btn">❤️</button>
+
+    <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=700" alt="">
+
+  </div>
+
+  <!-- IMAGE 7 -->
+
+  <div class="image people">
+
+    <button class="like-btn">🤍</button>
+
+    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=700" alt="">
+
+  </div>
+
+  <!-- IMAGE 8 -->
+
+  <div class="image people">
+
+    <button class="like-btn">❤️</button>
+
+    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=700" alt="">
+
+  </div>
+
+  <!-- IMAGE 9 -->
+
+  <div class="image food">
+
+    <button class="like-btn">🤍</button>
+
+    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=700" alt="">
+
+  </div>
+
+  <!-- IMAGE 10 -->
+
+  <div class="image people">
+
+    <button class="like-btn">❤️</button>
+
+    <img src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?w=700" alt="">
+
+  </div>
+
+  <!-- IMAGE 11 -->
+
+  <div class="image dresses">
+
+    <button class="like-btn">🤍</button>
+
+    <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=700" alt="">
+
+  </div>
+
+  
+  <!-- IMAGE 13 -->
+
+  <div class="image people">
+
+    <button class="like-btn">🤍</button>
+
+    <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=700" alt="">
+
+  </div>
+
+  <!-- IMAGE 14 -->
+
+  <div class="image people">
+
+    <button class="like-btn">❤️</button>
+
+    <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=700" alt="">
+
+  </div>
+
+  <!-- IMAGE 15 -->
+
+  <div class="image people">
+
+    <button class="like-btn">🤍</button>
+
+    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=700" alt="">
+
+  </div>
+
+</div>
+
+      <!-- LIGHTBOX -->
+
+<div class="lightbox" id="lightbox">
+
+  <span class="close">
+    &times;
+  </span>
+
+  <img class="lightbox-image" id="lightbox-img">
+
+  <div class="navigation">
+
+    <button id="prev">
+      Prev
+    </button>
+
+    <button id="next">
+      Next
+    </button>
+
+  </div>
+
+</div>
+
+<script src="gallery-script.js"></script>
+
+</body>
+</html>
